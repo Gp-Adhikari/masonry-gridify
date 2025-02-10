@@ -1,0 +1,6 @@
+.Masonry {
+  display: grid;
+}
+.Masonry > * {
+  height: fit-content;
+}
