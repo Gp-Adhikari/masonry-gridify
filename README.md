@@ -13,11 +13,13 @@ A lightweight, responsive, and customizable Masonry grid component for React.
 
 ## Installation
 
-`npm install masonry-gridify` or
-`npm install --save masonry-gridify`or
-`yarn add masonry-gridify`
-
----
+```js
+npm install masonry-gridify
+// or
+npm install --save masonry-gridify
+// or
+yarn add masonry-gridify
+```
 
 ## Usage
 
@@ -28,7 +30,7 @@ It takes the clientHeight of each element even if height is defined or not. So n
 **If height is defined**
 
 ```jsx
-import Masonry from "./Masonry";
+import Masonry from "masonry-gridify";
 
 const Example = () => {
   return (
@@ -45,6 +47,14 @@ export default Example;
 ```
 
 ## Features
+
+**Number of Columns**
+
+```jsx
+import Masonry, { columns } from "masonry-gridify";
+```
+
+Gets the number of columns displayed in screen.
 
 **Default Transition**
 
